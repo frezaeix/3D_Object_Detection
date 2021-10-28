@@ -1,12 +1,12 @@
 # 3D_Object_Detection
 3D Objecet Detection Papers
 
-# Table of Contents
+## Table of Contents
 * [PointPillars CVPR'19](https://github.com/frezaeix/3D_Object_Detection/blob/main/README.md#pointpillars-cvpr19)
 
-## TEMPLATE
+### TEMPLATE
 
-### [Paper's Title](https://)
+#### [Paper's Title](https://)
 
 **My Own Abstract**
 
@@ -20,7 +20,7 @@
 
 **Ablations**
 # 
-### [PointPillars CVPR'19](https://openaccess.thecvf.com/content_CVPR_2019/papers/Lang_PointPillars_Fast_Encoders_for_Object_Detection_From_Point_Clouds_CVPR_2019_paper.pdf)
+#### [PointPillars CVPR'19](https://openaccess.thecvf.com/content_CVPR_2019/papers/Lang_PointPillars_Fast_Encoders_for_Object_Detection_From_Point_Clouds_CVPR_2019_paper.pdf)
 
 **My Own Abstract**
 
