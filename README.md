@@ -2,14 +2,17 @@
 3D Objecet Detection Papers
 
 **TEMPLATE**
-#### Intro and Related Work
-#### Method
-#### Implementation Details
-#### Experimental Setup
-#### Ablations
+### Paper's Title
+- My Own Abstract
+- Intro and Related Work
+- Method
+- Implementation Details
+- Experimental Setup
+- Ablations
 
 ### PointPillars
-#### Intro and Related Work
+- My Own Abstract
+- Intro and Related Work
 1. Good Intro!
 2. A lidar uses a laser scanner to measure the distance to the environment, thus generating a sparse point cloud representation. 
 3. Traditionally, a lidar robotics pipeline interprets such point clouds as object detections through a bottomup pipeline involving background subtraction, followed by spatiotemporal clustering and classification [12, 9].
@@ -21,7 +24,7 @@
 9.  we propose PointPillars: a method for object detection in 3D that enables end-to-end learning with **only 2D convolutional layers**. 
 10.  PointPillars uses a novel encoder that learns features on pillars (vertical columns) of the point cloud to predict 3D oriented boxes for objects. by learning
 features instead of relying on fixed encoders, PointPillars can leverage the full information represented by the point cloud. Further, by operating on pillars instead of voxels there is no need to tune the binning of the vertical direction by hand. Finally, pillars are fast because all key operations can be formulated as 2D convolutions which are extremely efficient to compute on a GPU. An additional benefit of learning features is that PointPillars requires no hand-tuning to use different point cloud configurations such as multiple lidar scans or even radar point clouds.
-#### Method
-#### Implementation Details
-#### Experimental Setup
-#### Ablations
+- Method
+- Implementation Details
+- Experimental Setup
+- Ablations
