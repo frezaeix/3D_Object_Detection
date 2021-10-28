@@ -1,6 +1,6 @@
 # 3D_Object_Detection
 3D Objecet Detection Papers
-
+# 
 **TEMPLATE**
 
 [Paper's Title](https://)
@@ -16,10 +16,11 @@
 **Experimental Setup**
 
 **Ablations**
-
+# 
 [PointPillars CVPR'19](https://openaccess.thecvf.com/content_CVPR_2019/papers/Lang_PointPillars_Fast_Encoders_for_Object_Detection_From_Point_Clouds_CVPR_2019_paper.pdf)
 
 **My Own Abstract**
+
 **Intro and Related Work**
 1. Good Intro!
 2. A lidar uses a laser scanner to measure the distance to the environment, thus generating a sparse point cloud representation. 
@@ -36,3 +37,4 @@ features instead of relying on fixed encoders, PointPillars can leverage the ful
 **Implementation Details**
 **Experimental Setup
 **Ablations**
+# 
