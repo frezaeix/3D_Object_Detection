@@ -49,3 +49,20 @@ features instead of relying on fixed encoders, PointPillars can leverage the ful
 **Ablations**
 
 # 
+#### [PointRCNN CVPR'19](https://openaccess.thecvf.com/content_CVPR_2019/papers/Shi_PointRCNN_3D_Object_Proposal_Generation_and_Detection_From_Point_Cloud_CVPR_2019_paper.pdf)
+
+**My Own Abstract**
+
+**Intro and Related Work**
+
+
+**Method**
+![image](https://user-images.githubusercontent.com/13063395/139439993-b0e36ec3-5b07-4725-ab60-eda23f88f672.png)
+
+
+**Implementation Details**
+
+**Experimental Setup**
+
+**Ablations**
+# 
