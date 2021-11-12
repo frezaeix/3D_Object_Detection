@@ -67,7 +67,7 @@ features instead of relying on fixed encoders, PointPillars can leverage the ful
 **Ablations**
 # 
 
-#### [PointNet++](https://proceedings.neurips.cc/paper/2017/file/d8bf84be3800d12f74d8b05e9b89836f-Paper.pdf
+#### [PointNet++ Neurips'17](https://proceedings.neurips.cc/paper/2017/file/d8bf84be3800d12f74d8b05e9b89836f-Paper.pdf)
 
 **My Own Abstract**
 
