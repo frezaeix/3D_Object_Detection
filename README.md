@@ -82,3 +82,17 @@ https://medium.com/@sanketgujar95/https-medium-com-sanketgujar95-pointnetplus-5d
 
 **Ablations**
 # 
+#### [PointNet CVPR'17](https://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf)
+
+**My Own Abstract**
+
+**Intro and Related Work**
+
+**Method**
+
+**Implementation Details**
+
+**Experimental Setup**
+
+**Ablations**
+# 
