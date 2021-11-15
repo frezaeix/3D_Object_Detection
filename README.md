@@ -91,6 +91,7 @@ https://medium.com/@sanketgujar95/https-medium-com-sanketgujar95-pointnetplus-5d
 [another explanation with some code](https://towardsdatascience.com/deep-learning-on-point-clouds-implementing-pointnet-in-google-colab-1fd65cd3a263)
 #
 ## other papers
-[SemanticKITTI: A Dataset for Semantic Scene Understanding
+* [SemanticKITTI: A Dataset for Semantic Scene Understanding
 of LiDAR Sequences ICCV'19](https://arxiv.org/pdf/1904.01416.pdf)
-[Towards 3D LiDAR-based semantic scene understanding of 3D point cloud sequences: The SemanticKITTI Dataset 2021](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/behley2021ijrr.pdf)
+
+* [Towards 3D LiDAR-based semantic scene understanding of 3D point cloud sequences: The SemanticKITTI Dataset 2021](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/behley2021ijrr.pdf)
