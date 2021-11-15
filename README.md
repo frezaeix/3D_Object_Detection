@@ -92,4 +92,5 @@ https://medium.com/@sanketgujar95/https-medium-com-sanketgujar95-pointnetplus-5d
 #
 ## other papers
 [SemanticKITTI: A Dataset for Semantic Scene Understanding
-of LiDAR Sequences](https://arxiv.org/pdf/1904.01416.pdf)
+of LiDAR Sequences ICCV'19](https://arxiv.org/pdf/1904.01416.pdf)
+[Towards 3D LiDAR-based semantic scene understanding of 3D point cloud sequences: The SemanticKITTI Dataset 2021](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/behley2021ijrr.pdf)
