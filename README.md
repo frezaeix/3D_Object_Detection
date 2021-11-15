@@ -89,4 +89,7 @@ https://medium.com/@sanketgujar95/https-medium-com-sanketgujar95-pointnetplus-5d
 [another good explanation](https://medium.com/@luis_gonzales/an-in-depth-look-at-pointnet-111d7efdaa1a)
 
 [another explanation with some code](https://towardsdatascience.com/deep-learning-on-point-clouds-implementing-pointnet-in-google-colab-1fd65cd3a263)
-# 
+#
+## other papers
+[SemanticKITTI: A Dataset for Semantic Scene Understanding
+of LiDAR Sequences](https://arxiv.org/pdf/1904.01416.pdf)
