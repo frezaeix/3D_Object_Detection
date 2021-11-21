@@ -5,27 +5,7 @@
 * [PointPillars CVPR'19](https://github.com/frezaeix/3D_Object_Detection/blob/main/README.md#pointpillars-cvpr19)
 
 #
-### TEMPLATE
-
-#### [Paper's Title](https://)
-
-**My Own Abstract**
-
-**Intro and Related Work**
-
-**Method**
-
-**Implementation Details**
-
-**Experimental Setup**
-
-**Ablations**
-# 
 #### [PointPillars CVPR'19](https://openaccess.thecvf.com/content_CVPR_2019/papers/Lang_PointPillars_Fast_Encoders_for_Object_Detection_From_Point_Clouds_CVPR_2019_paper.pdf)
-
-**My Own Abstract**
-
-**Intro and Related Work**
 1. Good Intro!
 2. A lidar uses a laser scanner to measure the distance to the environment, thus generating a sparse point cloud representation. 
 3. Traditionally, a lidar robotics pipeline interprets such point clouds as object detections through a bottomup pipeline involving background subtraction, followed by spatiotemporal clustering and classification [12, 9].
@@ -38,49 +18,19 @@
 10.  PointPillars uses a novel encoder that learns features on pillars (vertical columns) of the point cloud to predict 3D oriented boxes for objects. by learning
 features instead of relying on fixed encoders, PointPillars can leverage the full information represented by the point cloud. Further, by operating on pillars instead of voxels there is no need to tune the binning of the vertical direction by hand. Finally, pillars are fast because all key operations can be formulated as 2D convolutions which are extremely efficient to compute on a GPU. An additional benefit of learning features is that PointPillars requires no hand-tuning to use different point cloud configurations such as multiple lidar scans or even radar point clouds.
 
-**Method**
 ![image](https://user-images.githubusercontent.com/13063395/139265900-80aa9814-f851-4da3-98c5-9179b1e97220.png)
 
-
-**Implementation Details**
-
-**Experimental Setup**
-
-**Ablations**
 
 # 
 #### [PointRCNN CVPR'19](https://openaccess.thecvf.com/content_CVPR_2019/papers/Shi_PointRCNN_3D_Object_Proposal_Generation_and_Detection_From_Point_Cloud_CVPR_2019_paper.pdf)
 
-**My Own Abstract**
-
-**Intro and Related Work**
-
-
-**Method**
 ![image](https://user-images.githubusercontent.com/13063395/139439993-b0e36ec3-5b07-4725-ab60-eda23f88f672.png)
 
-
-**Implementation Details**
-
-**Experimental Setup**
-
-**Ablations**
 # 
 
 #### [PointNet++ Neurips'17](https://proceedings.neurips.cc/paper/2017/file/d8bf84be3800d12f74d8b05e9b89836f-Paper.pdf)
 https://medium.com/@sanketgujar95/https-medium-com-sanketgujar95-pointnetplus-5d2642560c0d
 
-**My Own Abstract**
-
-**Intro and Related Work**
-
-**Method**
-
-**Implementation Details**
-
-**Experimental Setup**
-
-**Ablations**
 # 
 #### [PointNet CVPR'17](https://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf)
 
