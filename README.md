@@ -90,7 +90,7 @@ https://medium.com/@sanketgujar95/https-medium-com-sanketgujar95-pointnetplus-5d
 
 [another explanation with some code](https://towardsdatascience.com/deep-learning-on-point-clouds-implementing-pointnet-in-google-colab-1fd65cd3a263)
 #
-## 3D DA
+## 3D DA, UDA
 * Unsupervised Domain Adaptive 3D Detection with Multi-Level Consistency ICCV'21
 * Adversarial Training on Point Clouds for Sim-to-Real 3D Object Detection
 * PointDAN: A Multi-Scale 3D Domain Adaption Network for Point Cloud Representation Neurips'19
@@ -98,6 +98,17 @@ https://medium.com/@sanketgujar95/https-medium-com-sanketgujar95-pointnetplus-5d
 * A Survey on Deep Domain Adaptation for LiDAR Perception 2021
 * Complete & Label: A Domain Adaptation Approach to Semantic Segmentation of LiDAR Point Clouds CVPR'21
 * Self-Supervised Learning for Domain Adaptation on Point Clouds WACV'21
+#
+
+## Pre-training
+* Self-supervised Pretraining of 3d Features on any point-cloud ICCV'21
+* Guided Point Contrastive Learning for Semi-supervised Point Cloud Semantic Segmentation ICCV'21
+#
+
+## Semi-supervised 
+* Multimodal Semi-Supervised Learning for 3D Objects
+* Multimodal virtual point 3d detection
+#
 ## Other Papers
 * [SemanticKITTI: A Dataset for Semantic Scene Understanding
 of LiDAR Sequences ICCV'19](https://arxiv.org/pdf/1904.01416.pdf)
