@@ -2,7 +2,12 @@
 3D Objecet Detection Papers
 
 ## Table of Contents
-* [PointPillars CVPR'19](https://github.com/frezaeix/3D_Object_Detection/blob/main/README.md#pointpillars-cvpr19)
+1. Individual Papers
+ * [PointPillars CVPR'19](https://github.com/frezaeix/3D_Object_Detection/blob/main/README.md#pointpillars-cvpr19)
+2. [3D DA, UDA](https://github.com/frezaeix/3D_Object_Detection#3d-da-uda)
+3. [Pre-training](https://github.com/frezaeix/3D_Object_Detection#pre-training)
+4. [Semi-supervised](https://github.com/frezaeix/3D_Object_Detection#semi-supervised)
+5. [Other Papers](https://github.com/frezaeix/3D_Object_Detection#other-papers)
 
 #
 #### [PointPillars CVPR'19](https://openaccess.thecvf.com/content_CVPR_2019/papers/Lang_PointPillars_Fast_Encoders_for_Object_Detection_From_Point_Clouds_CVPR_2019_paper.pdf)
