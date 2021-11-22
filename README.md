@@ -4,7 +4,7 @@
 ## Table of Contents
 1. Individual Papers
  * [PointPillars CVPR'19](https://github.com/frezaeix/3D_Object_Detection/blob/main/README.md#pointpillars-cvpr19)
-2. [3D DA, UDA](https://github.com/frezaeix/3D_Object_Detection#3d-da-uda)
+2. [3D DA, UDA](#3d-da-uda)
 3. [Pre-training](https://github.com/frezaeix/3D_Object_Detection#pre-training)
 4. [Semi-supervised](https://github.com/frezaeix/3D_Object_Detection#semi-supervised)
 5. [Other Papers](https://github.com/frezaeix/3D_Object_Detection#other-papers)
