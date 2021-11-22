@@ -52,12 +52,11 @@ https://medium.com/@sanketgujar95/https-medium-com-sanketgujar95-pointnetplus-5d
 #### [ST3D CVPR'21](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_ST3D_Self-Training_for_Unsupervised_Domain_Adaptation_on_3D_Object_Detection_CVPR_2021_paper.pdf)
 
 1. Random Object Scaling (ROS), in pre-training phase, to overcome object size bias on the labeled source domain
- 
- 1.1. it points to point densities bias but this module does not handle this 
+ * it points to point densities bias but this module does not handle this
+  
 
 2. Pseudo Label generation using Quality-aware Triplet Memory Bank (QTMB), using IOU based scores, keeping a history, ensemble and voting
- 
- 2.1. **Good explanation:** _First_, the **confidence** of object category prediction may not necessarily reflect the **precision** of location as shown by the blue line in Fig. 3 (a). _Second_, the fraction of false labels is much increased in confidence score intervals with **medium values** as illustrated in Fig. 3 (b). _Third_, model fluctuations induce inconsistent pseudo labels as demonstrated in Fig. 3 (c). The above factors will undoubtedly have negative impacts on the pseudo-labeled objects, leading to noisy supervisory information and instability for self-training.
+ * **Good explanation:** _First_, the **confidence** of object category prediction may not necessarily reflect the **precision** of location as shown by the blue line in Fig. 3 (a). _Second_, the fraction of false labels is much increased in confidence score intervals with **medium values** as illustrated in Fig. 3 (b). _Third_, model fluctuations induce inconsistent pseudo labels as demonstrated in Fig. 3 (c). The above factors will undoubtedly have negative impacts on the pseudo-labeled objects, leading to noisy supervisory information and instability for self-training.
 
 3. Curriculum Data Augmentation (CDA), progressively increasing the intensity of augmentation, preventing from overfitting to easy examples
 
