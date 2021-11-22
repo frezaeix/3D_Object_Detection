@@ -49,7 +49,7 @@ https://medium.com/@sanketgujar95/https-medium-com-sanketgujar95-pointnetplus-5d
 [another explanation with some code](https://towardsdatascience.com/deep-learning-on-point-clouds-implementing-pointnet-in-google-colab-1fd65cd3a263)
 
 # 
-#### [ST3D CVPR'21](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_ST3D_Self Training_for_Unsupervised_Domain_Adaptation_on_3D_Object_Detection_CVPR_2021_paper.pdf)
+#### [ST3D CVPR'21](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_ST3D_SelfTraining_for_Unsupervised_Domain_Adaptation_on_3D_Object_Detection_CVPR_2021_paper.pdf)
 
 1. Random Object Scaling (ROS), in pre-training phase, to overcome object size on the labeled source domain
 
