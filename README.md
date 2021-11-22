@@ -49,8 +49,20 @@ https://medium.com/@sanketgujar95/https-medium-com-sanketgujar95-pointnetplus-5d
 [another explanation with some code](https://towardsdatascience.com/deep-learning-on-point-clouds-implementing-pointnet-in-google-colab-1fd65cd3a263)
 
 # 
+#### [ST3D CVPR'21](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_ST3D_Self Training_for_Unsupervised_Domain_Adaptation_on_3D_Object_Detection_CVPR_2021_paper.pdf)
+
+1. Random Object Scaling (ROS), in pre-training phase, to overcome object size on the labeled source domain
+
+2. Pseudo Label generation using Quality-aware Triplet Memory Bank (QTMB), using IOU based scores, keeping a history, ensemble and voting
+ 2.1 
+
+3. Curriculum Data Augmentation (CDA), progressively increasing the intensity of augmentation, preventing from overfitting to easy examples
+
+4. Experiments on: Waymo -> kitti, Waymo -> Lyft, Waymo -> nuScenes, nuScenes -> kitti 
+
+# 
 ## 3D DA, UDA
-* ST3D: Self-training for Unsupervised Domain Adaptation on 3D Object Detection [CVPR'21](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_ST3D_Self-Training_for_Unsupervised_Domain_Adaptation_on_3D_Object_Detection_CVPR_2021_paper.pdf)
+* ST3D: Self-training for Unsupervised Domain Adaptation on 3D Object Detection CVPR'21
   * First, we pre-train the 3D detector on the source domain with our proposed random object scaling strategy for mitigating the negative effects of source domain bias. 
   * Then, the detector is iteratively improved on the target domain by alternatively conducting two steps, which are the **pseudo label updating** with the developed **quality-aware triplet memory bank** and the model training with **curriculum data augmentation**.   
 * Unsupervised Domain Adaptive 3D Detection with Multi-Level Consistency ICCV'21
