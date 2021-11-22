@@ -4,6 +4,9 @@
 ## Table of Contents
 1. Individual Papers
  * [PointPillars CVPR'19](#pointpillars-cvpr19)
+ * [PointRCNN CVPR'19](#pointrcnn-cvpr19)
+ * [PointNet++ Neurips'17](#pointnet-neurips17)
+ * [PointNet CVPR'17](#pointnet-cvpr17)
 2. [3D DA, UDA](#3d-da-uda)
 3. [Pre-training](#pre-training)
 4. [Semi-supervised](#semi-supervised)
