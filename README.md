@@ -51,7 +51,8 @@ https://medium.com/@sanketgujar95/https-medium-com-sanketgujar95-pointnetplus-5d
 # 
 #### [ST3D CVPR'21](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_ST3D_Self-Training_for_Unsupervised_Domain_Adaptation_on_3D_Object_Detection_CVPR_2021_paper.pdf)
 
-1. Random Object Scaling (ROS), in pre-training phase, to overcome object size on the labeled source domain
+1. Random Object Scaling (ROS), in pre-training phase, to overcome object size bias on the labeled source domain
+ 1.1. it points to point densities bias but this module does not handle this 
 
 2. Pseudo Label generation using Quality-aware Triplet Memory Bank (QTMB), using IOU based scores, keeping a history, ensemble and voting
  2.1 
