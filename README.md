@@ -70,7 +70,10 @@ https://medium.com/@sanketgujar95/https-medium-com-sanketgujar95-pointnetplus-5d
 
 #### [3DIoUMatch CVPR'21](https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_3DIoUMatch_Leveraging_IoU_Prediction_for_Semi-Supervised_3D_Object_Detection_CVPR_2021_paper.pdf)
 
-1.
+1. using votenet and pvrcnn
+2. using IoU estimation
+3. student teacher model and adapt an EMA teacher 
+4. using asymetric data augmentation and pseudo label filtering
 
 # 
 ## 3D DA, UDA
