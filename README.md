@@ -119,3 +119,6 @@ of LiDAR Sequences ICCV'19](https://arxiv.org/pdf/1904.01416.pdf)
 * FixMatch: Simplifying Semi-Supervised Learning with Consistency and Confidence Neurips'20
 * Mean teachers are better role models: Weight-averaged consistency targets improve semi-supervised deep learning results Neurips'17
   * Mean Teacher [22] tackles the weakness of temporal model by replacing network prediction average with network parameter average. It contains two network branches - teacher and student with the same architecture. The parameters of the teacher are the exponential moving average of the student network parameters that are updated by stochastic gradient descent. The student network is trained to yield consistent predictions with the teacher network. 
+
+## Theoritical General Papers
+* THEORETICAL ANALYSIS OF SELF-TRAINING WITH DEEP NETWORKS ON UNLABELED DATA ICLR'21
