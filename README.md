@@ -96,7 +96,7 @@ https://medium.com/@sanketgujar95/https-medium-com-sanketgujar95-pointnetplus-5d
 * Multimodal virtual point 3d detection
 * 3DIoUMatch: Leveraging IoU Prediction for Semi-Supervised 3D Object Detection CVPR'21
 * SESS: Self-Ensembling Semi-Supervised 3D Object Detection CVPR'20
- * SESS is built upon VoteNet [18] and adopts a two-stage training scheme. It leverages a mutual learning framework composed of an EMA teacher and a student, uses asymmetric data augmentation, and enforces three kinds of consistency losses between the teacher and student outputs. 
+  * SESS is built upon VoteNet [18] and adopts a two-stage training scheme. It leverages a mutual learning framework composed of an EMA teacher and a student, uses asymmetric data augmentation, and enforces three kinds of consistency losses between the teacher and student outputs. 
 * 
 #
 
