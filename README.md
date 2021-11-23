@@ -113,3 +113,4 @@ of LiDAR Sequences ICCV'19](https://arxiv.org/pdf/1904.01416.pdf)
 ## Other related work but in other task like 2d detection or classification
 * Semi-Supervised Semantic Segmentation with Cross Pseudo Supervision CVPR'21
 * FixMatch: Simplifying Semi-Supervised Learning with Consistency and Confidence Neurips'20
+* Mean teachers are better role models: Weight-averaged consistency targets improve semi-supervised deep learning results Neurips'17
