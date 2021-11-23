@@ -97,8 +97,11 @@ https://medium.com/@sanketgujar95/https-medium-com-sanketgujar95-pointnetplus-5d
 * 3DIoUMatch: Leveraging IoU Prediction for Semi-Supervised 3D Object Detection CVPR'21
 #
 
-## Other Papers
+## Uncategorized papers
 * [SemanticKITTI: A Dataset for Semantic Scene Understanding
 of LiDAR Sequences ICCV'19](https://arxiv.org/pdf/1904.01416.pdf)
 * [Towards 3D LiDAR-based semantic scene understanding of 3D point cloud sequences: The SemanticKITTI Dataset 2021](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/behley2021ijrr.pdf)
 * [Frustum PointNets for 3D Object Detection from RGB-D Data CVPR'18](https://openaccess.thecvf.com/content_cvpr_2018/papers/Qi_Frustum_PointNets_for_CVPR_2018_paper.pdf)
+
+## Other related work but in other task like 2d detection or classification
+* Semi-Supervised Semantic Segmentation with Cross Pseudo Supervision CVPR'21
