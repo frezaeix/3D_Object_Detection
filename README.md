@@ -100,7 +100,8 @@ https://medium.com/@sanketgujar95/https-medium-com-sanketgujar95-pointnetplus-5d
   * For 3D object detection, STD [32] follows IoU-Net to add a simple IoU estimation branch parallel with the box estimation branch and to guide NMS with IoU estimation. PV-RCNN [24] devises a similar 3D IoU estimation module and use it at IoU-guided NMS stage. These two modules, unfortunately, are not suitable for IoU optimization **as the features fed to the IoU estimation branch are not differentiable w.r.t. the bounding box size**.
 * SESS: Self-Ensembling Semi-Supervised 3D Object Detection CVPR'20
   * SESS is built upon VoteNet [18] and adopts a two-stage training scheme. It leverages a mutual learning framework composed of an EMA teacher and a student, uses asymmetric data augmentation, and enforces three kinds of consistency losses between the teacher and student outputs. 
-* 
+* PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection CVPR'20
+  * PV-RCNN[24] is a high-performance and efficient LiDAR point cloud detector that deeply integrates both 3D voxel CNNs and PointNet++- style set abstraction to learn more discriminative point cloud features. Specifically, PV-RCNN first passes the 3D scene through a novel voxel set abstraction module based on sparse 3D CNN to get a set of keypoints with representative scene features. Then RoI grid pooling is then applied to the keypoints to abstract proposal-specific features into RoI grid points. The RoI grid points containing rich context information are finally used to accurately estimate bounding box parameters. PV-RCNN itself incorporates an IoU-estimation module which can predict the IoU of each bounding box and use it to guide the sorting of the boxes. 
 #
 
 ## Uncategorized papers
