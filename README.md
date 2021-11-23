@@ -95,6 +95,7 @@ https://medium.com/@sanketgujar95/https-medium-com-sanketgujar95-pointnetplus-5d
 * Multimodal Semi-Supervised Learning for 3D Objects
 * Multimodal virtual point 3d detection
 * 3DIoUMatch: Leveraging IoU Prediction for Semi-Supervised 3D Object Detection CVPR'21
+  * Although SESS brings noticeable improvements upon a vanilla VoteNet when using only a small portion of labeled data, we find their consistency regularization suboptimal, as it is uniformly enforced on all the student and teacher predictions. In this work, we instead propose to apply confidence-based filtering to improve the quality of pseudo-labels from the teacher predictions and we are the first (in both 2D and 3D object detection) to introduce IoU estimation for localization filtering. 
 * SESS: Self-Ensembling Semi-Supervised 3D Object Detection CVPR'20
   * SESS is built upon VoteNet [18] and adopts a two-stage training scheme. It leverages a mutual learning framework composed of an EMA teacher and a student, uses asymmetric data augmentation, and enforces three kinds of consistency losses between the teacher and student outputs. 
 * 
