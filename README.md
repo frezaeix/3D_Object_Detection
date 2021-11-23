@@ -28,18 +28,13 @@ features instead of relying on fixed encoders, PointPillars can leverage the ful
 
 ![image](https://user-images.githubusercontent.com/13063395/139265900-80aa9814-f851-4da3-98c5-9179b1e97220.png)
 
-
-# 
 #### [PointRCNN CVPR'19](https://openaccess.thecvf.com/content_CVPR_2019/papers/Shi_PointRCNN_3D_Object_Proposal_Generation_and_Detection_From_Point_Cloud_CVPR_2019_paper.pdf)
 
 ![image](https://user-images.githubusercontent.com/13063395/139439993-b0e36ec3-5b07-4725-ab60-eda23f88f672.png)
 
-# 
-
 #### [PointNet++ Neurips'17](https://proceedings.neurips.cc/paper/2017/file/d8bf84be3800d12f74d8b05e9b89836f-Paper.pdf)
 https://medium.com/@sanketgujar95/https-medium-com-sanketgujar95-pointnetplus-5d2642560c0d
 
-# 
 #### [PointNet CVPR'17](https://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf)
 
 [Very good summary by the authors](https://www.youtube.com/watch?v=Cge-hot0Oc0&ab_channel=ComputerVisionFoundationVideos)
@@ -48,7 +43,6 @@ https://medium.com/@sanketgujar95/https-medium-com-sanketgujar95-pointnetplus-5d
 
 [another explanation with some code](https://towardsdatascience.com/deep-learning-on-point-clouds-implementing-pointnet-in-google-colab-1fd65cd3a263)
 
-# 
 #### [ST3D CVPR'21](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_ST3D_Self-Training_for_Unsupervised_Domain_Adaptation_on_3D_Object_Detection_CVPR_2021_paper.pdf)
 
 1. Random Object Scaling (ROS), in pre-training phase, to overcome object size bias on the labeled source domain
