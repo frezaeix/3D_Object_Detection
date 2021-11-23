@@ -60,9 +60,23 @@ https://medium.com/@sanketgujar95/https-medium-com-sanketgujar95-pointnetplus-5d
  * Generating pseudo labels using the pretrained model from prev. stage. then caching these pseudo labels in the memory bank for later usage. updating these seudo labels based on IoU score. try to avoid ambiguous samples by setting thresholds for ignoring noisy labels. noisy labels are those ones with medium values for IoU or ..? **Two IoU thresholds for matching**
  * memory voting: when updating the memory bank, if current generated pseudo labels have enough overlaps with old labels with higher confidence, they will be used for the next training stage. If they do not have match with older labels we have to decide to ignore or discard them. So we keep history for the number of times that a new generated label is not matched with old ones if it is exceeded than a threshold we discard it. if it is less than another threshold we cach it otherwise we ignore it during training because it is noisy. **one threshold for the confidence (updating the bank) and Two thresholds for voting part**
 
-3. Curriculum Data Augmentation (CDA), progressively increasing the intensity of augmentation, preventing from overfitting to easy examples
+3. Curriculum Data Augmentation (CDA), progressively increasing the intensity of augmentation, preventing from overfitting to easy examples from previous stage. prev. stage produces only easy examples and training on them leads to overfitting so the authors use data augmentation to avoide this. 
 
 4. Experiments on: Waymo -> kitti, Waymo -> Lyft, Waymo -> nuScenes, nuScenes -> kitti 
+ * using kitti eval metrics
+ * comaring with Oracle, source only and train in germany test in usa paper
+ * using two point cloud architectures: SECOND and pvrcnn
+ * codebase based on openpcdet
+ * for all datasets [-75,75]m for X and Y axis, [-2, 4] for Z
+
+5. Ablattions: size normalization from train in germany test in usa brings a large improvement in Waymo -> kitti and nuScenes -> kitti
+ * even naive self-training is useful at least on 3d eval setting.
+ * 
+
+
+#### [3DIoUMatch CVPR'21](https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_3DIoUMatch_Leveraging_IoU_Prediction_for_Semi-Supervised_3D_Object_Detection_CVPR_2021_paper.pdf)
+
+1.
 
 # 
 ## 3D DA, UDA
