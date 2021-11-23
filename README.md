@@ -94,7 +94,9 @@ https://medium.com/@sanketgujar95/https-medium-com-sanketgujar95-pointnetplus-5d
 ## Semi-supervised 
 * Multimodal Semi-Supervised Learning for 3D Objects
 * Multimodal virtual point 3d detection
+* 3DIoUMatch: Leveraging IoU Prediction for Semi-Supervised 3D Object Detection CVPR'21
 #
+
 ## Other Papers
 * [SemanticKITTI: A Dataset for Semantic Scene Understanding
 of LiDAR Sequences ICCV'19](https://arxiv.org/pdf/1904.01416.pdf)
