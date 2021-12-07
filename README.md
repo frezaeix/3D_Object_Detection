@@ -34,6 +34,12 @@ features instead of relying on fixed encoders, PointPillars can leverage the ful
 
 #### [PointNet++ Neurips'17](https://proceedings.neurips.cc/paper/2017/file/d8bf84be3800d12f74d8b05e9b89836f-Paper.pdf)
 https://medium.com/@sanketgujar95/https-medium-com-sanketgujar95-pointnetplus-5d2642560c0d
+* by design PointNet does not capture **local structures** induced by the metric space points live in, limiting its ability to recognize fine-grained patterns and **generalizability** to complex scenes.
+* In this work, we introduce a **hierarchical neural network** that applies PointNet **recursively** on a **nested partitioning** of the input point set.
+* With further observation that point sets are usually sampled with **varying densities**, which results in greatly **decreased performance** for networks trained on uniform densities, we propose novel **set learning layers** to adaptively combine features from **multiple scales**.
+* The basic idea of PointNet is to **learn a spatial encoding of each point** and then aggregate all individual point features to a global point cloud signature.
+* The ability to abstract local patterns along the hierarchy allows better generalizability to unseen cases.
+* **The general idea of PointNet++** is simple. We first **partition** the set of points into **overlapping local regions** by the distance metric of the underlying space. Similar to CNNs, we **extract local features** capturing fine geometric structures from small neighborhoods; **such local features are further grouped into larger units** and processed to produce higher level features. This process is repeated until we obtain the features of the whole point set.
 
 #### [PointNet CVPR'17](https://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf)
 
