@@ -51,8 +51,8 @@ https://medium.com/@sanketgujar95/https-medium-com-sanketgujar95-pointnetplus-5d
 * **Multi-scale grouping (MSG).**, a simple but effective way to capture multiscale patterns is to apply grouping layers with different scales followed by according PointNets to extract features of each scale. Features at different scales are concatenated to form a multi-scale feature.
 * **Multi-resolution grouping (MRG).** check the paper.
 * **Fig 4 is interesting.** Robustness when dropping points.
-* In the **pytorch implementation **at [this link](https://github.com/erikwijmans/Pointnet2_PyTorch) T-Net is missing?
-* check [this readme](https://github.com/frezaeix/Pointnet2_PyTorch#readme) for **some explanation regarding its implementation**
+* In the [pytorch implementation](https://github.com/erikwijmans/Pointnet2_PyTorch) T-Net is missing?
+* [some explanation regarding its implementation](https://github.com/frezaeix/Pointnet2_PyTorch#readme)
 
 #### [PointNet CVPR'17](https://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf)
 
