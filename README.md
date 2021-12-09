@@ -50,8 +50,9 @@ https://medium.com/@sanketgujar95/https-medium-com-sanketgujar95-pointnetplus-5d
 * **PointNet layer**. In this layer, the input are N' local regions of points with data size N'×K×(d+C). Each local region in the output is abstracted by its centroid and local feature that encodes the centroid’s neighborhood. Output data size is N'× (d + C'). The coordinates of points in a local region are firstly translated into a local frame relative to the centroid point. We use PointNet [20] as described in Sec. 3.1 as the basic building block for local pattern learning. By using relative coordinates together with point features we can capture point-to-point relations in the local region.
 * **Multi-scale grouping (MSG).**, a simple but effective way to capture multiscale patterns is to apply grouping layers with different scales followed by according PointNets to extract features of each scale. Features at different scales are concatenated to form a multi-scale feature.
 * **Multi-resolution grouping (MRG).** check the paper.
-* Fig 4 is interesting. Robustness when dropping points.
-* In the pytorch implementation at [this link](https://github.com/erikwijmans/Pointnet2_PyTorch) T-Net is missing?
+* **Fig 4 is interesting.** Robustness when dropping points.
+* In the **pytorch implementation **at [this link](https://github.com/erikwijmans/Pointnet2_PyTorch) T-Net is missing?
+* check [this readme](https://github.com/frezaeix/Pointnet2_PyTorch#readme) for **some explanation regarding its implementation**
 
 #### [PointNet CVPR'17](https://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf)
 
