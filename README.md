@@ -49,8 +49,9 @@ https://medium.com/@sanketgujar95/https-medium-com-sanketgujar95-pointnetplus-5d
 * **Grouping layer.** The input to this layer is a point set of size **N × (d + C)** and the coordinates of a set of centroids of size **N'× d**. The output are groups of point sets of size **N'× K × (d + C)**, where each group corresponds to a local region and K is the number of points in the neighborhood of centroid points. Note that K varies across groups but the succeeding PointNet layer is able to convert flexible number of points into a fixed length local region feature vector. **Ball query** finds all points that are within a radius to the query point (an upper limit of K is set in implementation). An alternative range query is **K nearest neighbor** (kNN) search which finds a fixed number of neighboring points. Compared with kNN, ball query’s local neighborhood guarantees a fixed region scale thus making local region feature more generalizable across space, which is preferred for tasks requiring local pattern recognition (e.g. semantic point labeling).
 * **PointNet layer**. In this layer, the input are N' local regions of points with data size N'×K×(d+C). Each local region in the output is abstracted by its centroid and local feature that encodes the centroid’s neighborhood. Output data size is N'× (d + C'). The coordinates of points in a local region are firstly translated into a local frame relative to the centroid point. We use PointNet [20] as described in Sec. 3.1 as the basic building block for local pattern learning. By using relative coordinates together with point features we can capture point-to-point relations in the local region.
 * **Multi-scale grouping (MSG).**, a simple but effective way to capture multiscale patterns is to apply grouping layers with different scales followed by according PointNets to extract features of each scale. Features at different scales are concatenated to form a multi-scale feature.
-* **Multi-resolution grouping (MRG).**
-* 
+* **Multi-resolution grouping (MRG).** check the paper.
+* Fig 4 is interesting. Robustness when dropping points.
+* In the pytorch implementation at [this link](https://github.com/erikwijmans/Pointnet2_PyTorch) T-Net is missing?
 
 #### [PointNet CVPR'17](https://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf)
 
