@@ -53,6 +53,7 @@ https://medium.com/@sanketgujar95/https-medium-com-sanketgujar95-pointnetplus-5d
 * **Fig 4 is interesting.** Robustness when dropping points.
 * In the [pytorch implementation](https://github.com/erikwijmans/Pointnet2_PyTorch) T-Net is missing?
 * [some explanation regarding its implementation](https://github.com/frezaeix/Pointnet2_PyTorch#readme)
+* [another implementation](https://github.com/sshaoshuai/Pointnet2.PyTorch)
 
 #### [PointNet CVPR'17](https://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf)
 
