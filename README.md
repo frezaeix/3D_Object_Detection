@@ -55,6 +55,17 @@ https://medium.com/@sanketgujar95/https-medium-com-sanketgujar95-pointnetplus-5d
 * [some explanation regarding its implementation](https://github.com/frezaeix/Pointnet2_PyTorch#readme)
 * [another implementation](https://github.com/sshaoshuai/Pointnet2.PyTorch)
 
+
+#### [PV-RCNN CVPR'20](https://openaccess.thecvf.com/content_CVPR_2020/papers/Shi_PV-RCNN_Point-Voxel_Feature_Set_Abstraction_for_3D_Object_Detection_CVPR_2020_paper.pdf)
+* Claims: High quality proposals by the voxel CNN, flexible receptive fields of PointNet, The ROI grid feature points encode much richer context information (good for precise localization)
+* flow of the algorithm (high level): 
+  * voxel to keypoint scene encoding
+    * a Voxel CNN with 3D sparse convolution is adaptod for voxel-wise feature learning and accurate proposal generation. First a small set of keypoints is selected by FPS and it summarizes the 3D information from voxel-wise features. The features of each keypoint is aggregated by grouping the neighboring voxel-wise features via PointNet set abstraction. Does it group points with a ball query and work on raw points? how does this aggregate voxel features?
+  * keypoint to grid ROI feature abstraction
+    * how does this exactly work? what is grid here?  where does this grid point come from?
+
+* from fig 2, how do they map to BEV? 
+
 #### [PointNet CVPR'17](https://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf)
 
 [Very good summary by the authors](https://www.youtube.com/watch?v=Cge-hot0Oc0&ab_channel=ComputerVisionFoundationVideos)
