@@ -108,22 +108,32 @@ https://medium.com/@sanketgujar95/https-medium-com-sanketgujar95-pointnetplus-5d
 
 # 
 ## 3D DA, UDA
-* ST3D: Self-training for Unsupervised Domain Adaptation on 3D Object Detection CVPR'21
+* **ST3D: Self-training for Unsupervised Domain Adaptation on 3D Object Detection CVPR'21**
   * First, we pre-train the 3D detector on the source domain with our proposed random object scaling strategy for mitigating the negative effects of source domain bias. 
   * Then, the detector is iteratively improved on the target domain by alternatively conducting two steps, which are the **pseudo label updating** with the developed **quality-aware triplet memory bank** and the model training with **curriculum data augmentation**.   
-* Unsupervised Domain Adaptive 3D Detection with Multi-Level Consistency ICCV'21
-* Adversarial Training on Point Clouds for Sim-to-Real 3D Object Detection
-* PointDAN: A Multi-Scale 3D Domain Adaption Network for Point Cloud Representation Neurips'19
-* FAST3D: Flow-Aware Self-Training for 3D Object Detectors
-* A Survey on Deep Domain Adaptation for LiDAR Perception 2021
-* Complete & Label: A Domain Adaptation Approach to Semantic Segmentation of LiDAR Point Clouds CVPR'21
-* Self-Supervised Learning for Domain Adaptation on Point Clouds WACV'21
+* **Unsupervised Domain Adaptive 3D Detection with Multi-Level Consistency ICCV'21**
+* **Adversarial Training on Point Clouds for Sim-to-Real 3D Object Detection**
+* **PointDAN: A Multi-Scale 3D Domain Adaption Network for Point Cloud Representation Neurips'19**
+* **FAST3D: Flow-Aware Self-Training for 3D Object Detectors**
+* **A Survey on Deep Domain Adaptation for LiDAR Perception 2021**
+* **Complete & Label: A Domain Adaptation Approach to Semantic Segmentation of LiDAR Point Clouds CVPR'21**
+* **Self-Supervised Learning for Domain Adaptation on Point Clouds WACV'21**
+* **Exploiting Playbacks in Unsupervised Domain Adaptation for 3D Object Detection**
 #
 
 ## Pre-training
 * Self-supervised Pretraining of 3d Features on any point-cloud ICCV'21
 * Guided Point Contrastive Learning for Semi-supervised Point Cloud Semantic Segmentation ICCV'21
+* Unsupervised Point Cloud Pre-training via Occlusion Completion
+* PointContrast: Unsupervised Pre-training for 3D Point Cloud Understanding
 #
+
+##  Part aware, data augmentation for point cloud
+* pointmixup
+* Complete & Label: A Domain Adaptation Approach to Semantic Segmentation of LiDAR Point Clouds
+* Part aware data augmentation for point cloud
+* From Points to Parts: 3D Object Detection from Point Cloud with Part-aware and Part-aggregation Network
+* SE-SSD: Self-Ensembling Single-Stage Object Detector From Point Cloud (CVPR 2021): it has a data augmentation part - swapping - dropout- sparsifying
 
 ## Semi-supervised 
 * Multimodal Semi-Supervised Learning for 3D Objects
