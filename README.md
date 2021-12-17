@@ -13,6 +13,14 @@
 5. [Other Papers](#other-papers)
 
 #
+#### [VoteNet CVPR'19](https://openaccess.thecvf.com/content_ICCV_2019/papers/Qi_Deep_Hough_Voting_for_3D_Object_Detection_in_Point_Clouds_ICCV_2019_paper.pdf)
+1. due to the sparse nature of the data –samples from 2Dmanifolds in 3Dspace–weface a major challenge when directly predicting bounding box parameters from scene points: a 3D **object centroid can be far from any surface point** thus **hard to regress accurately** in one step.
+2. depth sensors only capture surfaces of objects, 3D object centers are likely to be in empty space, far away from any point. As a result, point based networks have difficulty aggregating scene context in the vicinity of object centers. Simply increasing the receptive field does not solve the problem because as the network captures larger context, it also causes more inclusion of nearby objects and clutter.
+3. 
+
+
+
+
 #### [PointPillars CVPR'19](https://openaccess.thecvf.com/content_CVPR_2019/papers/Lang_PointPillars_Fast_Encoders_for_Object_Detection_From_Point_Clouds_CVPR_2019_paper.pdf)
 1. Good Intro!
 2. A lidar uses a laser scanner to measure the distance to the environment, thus generating a sparse point cloud representation. 
